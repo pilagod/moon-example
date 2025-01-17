@@ -7,3 +7,7 @@ project:
   description: 'Frontend for project'
 
 stack: 'frontend'
+
+tasks:
+  test:
+    command: 'npm run test'
