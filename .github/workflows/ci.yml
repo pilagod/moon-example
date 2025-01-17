@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  FOUNDRY_PROFILE: ci
+
+jobs:
+  ci:
+    strategy:
+      fail-fast: true
+
+    name: Moon Project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup moon cli
+        uses: moonrepo/setup-toolchain@v0
+
+      - name: Run tasks against touched files
+        run: moon ci
