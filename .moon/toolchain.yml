@@ -1,6 +1,2 @@
 node:
   version: '20.18'
-
-go:
-  version: '1.22'
-  plugin: ''
