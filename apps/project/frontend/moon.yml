@@ -11,6 +11,7 @@ stack: 'frontend'
 tasks:
   setup:
     command: 'npm install'
+
   test:
     command: 'npm run test'
     deps:

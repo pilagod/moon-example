@@ -9,5 +9,10 @@ project:
 stack: 'backend'
 
 tasks:
+  version:
+    command: 'go version'
+
   test:
-    command: "go test ./..."
+    command: 'go test ./...'
+    deps:
+      - version
