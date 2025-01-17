@@ -22,6 +22,9 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Setup Foundry 
+        uses: foundry-rs/foundry-toolchain@v1
+
       - name: Setup moon cli
         uses: moonrepo/setup-toolchain@v0
 
