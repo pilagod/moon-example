@@ -7,3 +7,7 @@ project:
   description: 'Contract for project'
 
 stack: 'infrastructure'
+
+tasks:
+  test:
+    command: 'forge test'
