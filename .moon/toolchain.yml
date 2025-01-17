@@ -3,3 +3,4 @@ node:
 
 go:
   version: "1.22.11"
+  plugin: ""
