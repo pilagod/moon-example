@@ -1,0 +1,9 @@
+id: 'project-backend'
+type: 'application'
+language: 'go'
+
+project:
+  name: 'project-backend'
+  description: 'Backend for project'
+
+stack: 'backend'

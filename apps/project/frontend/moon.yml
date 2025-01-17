@@ -1,0 +1,9 @@
+id: 'project-frontend'
+type: 'application'
+language: 'typescript'
+
+project:
+  name: 'project-frontend'
+  description: 'Frontend for project'
+
+stack: 'frontend'

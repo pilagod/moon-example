@@ -1,0 +1,9 @@
+id: 'project-contract'
+type: 'application'
+language: 'solidity'
+
+project:
+  name: 'project-contract'
+  description: 'Contract for project'
+
+stack: 'infrastructure'
