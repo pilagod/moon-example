@@ -25,6 +25,11 @@ jobs:
       - name: Setup Foundry 
         uses: foundry-rs/foundry-toolchain@v1
 
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22' # The Go version to download (if necessary) and use.
+
       - name: Setup moon cli
         uses: moonrepo/setup-toolchain@v0
 
