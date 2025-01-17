@@ -9,8 +9,13 @@ project:
 stack: 'frontend'
 
 tasks:
+  version:
+    command: 'node -v'
+
   setup:
     command: 'npm install'
+    deps:
+      - version
 
   test:
     command: 'npm run test'
