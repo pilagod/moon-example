@@ -1,0 +1,8 @@
+{
+  "name": "moon-example",
+  "version": "0.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@moonrepo/cli": "^1.31.2"
+  }
+}
